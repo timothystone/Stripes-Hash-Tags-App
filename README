@@ -1,0 +1,11 @@
+==Stripes Hash Tags==
+In [http://www.stripesframework.org/jira/browse/STS-831 STS-831] the submitter was looking for a patch to allow HTML fragment identifiers in Stripes FormTag actions.
+
+A patch was submitted to the Stripes Wiki, however, I believe 'hacking' the FormTag to support a user-agent implementation of the HTML specification was unnecessary.
+
+This simple application demonstrates two features of the Stripes library.
+
+* Get-After-Side-Effect, also knows and POST/Redirect/Get, or Get After Post.
+* The RedirectResolution#setAnchor method.
+
+ 
